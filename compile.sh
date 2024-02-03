@@ -10,7 +10,7 @@ fi
 filename="${1%.*}"
 
 # Compilation command
-gcc "$1" -o "$filename" -lglut -lGL -lGLU
+gcc "$1" -o "$filename" -lglut -lGL -lGLU -lm
 
 # Check if compilation was successful
 if [ $? -eq 0 ]; then
