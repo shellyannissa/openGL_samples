@@ -7,4 +7,5 @@ This repository is a collection of programs written in C program language that u
 - rendering a basic window
 - rendering a rectangle
 - a multicolored spinning cube
-
+- cube rotating wrt specified axis with matrix transformations
+- triangle rotating wrt specified ref point and angle of rotation
