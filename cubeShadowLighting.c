@@ -38,13 +38,13 @@ void Draw()
 {
 
 	GLfloat Pos[] = {0, 1, 0, 1};
-	GLfloat Col[] = {1, 0, 0, 1};
+	GLfloat Col[] = {1, 1, 1, 0};
 
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 	glLoadIdentity();
 
-	glLightfv(GL_LIGHT0, GL_POSITION,Pos);
-	glLightfv(GL_LIGHT0, GL_DIFFUSE, Col);
+	//glLightfv(GL_LIGHT0, GL_POSITION,Pos);
+	//glLightfv(GL_LIGHT0, GL_DIFFUSE, Col);
 
 	gluLookAt(0, 1, 3, 0, 0, 0, 0, 1, 0);
 	
